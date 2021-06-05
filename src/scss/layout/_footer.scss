@@ -1,9 +1,15 @@
 .footer {
     padding: $separacion  / 2 0;
     background-color: $grisOscuro;
-
+    margin-bottom: 0;   
     .contenedor-footer{
         padding-top: $separacion / 2;
+        a {
+            margin-right: 2rem;
+            color: #fff;
+            font-size: 1.8rem;
+            text-decoration: none;
+        }
     }
     .copyright{
         color: $blanco;
