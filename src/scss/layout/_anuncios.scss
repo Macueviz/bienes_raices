@@ -16,17 +16,20 @@
     .contenido-anuncio {
         padding: 2rem;
      }
-    .precio {
-        font-weight: $bold;
-        font-size: 3rem;
-        color: $verde;
-    }
+
+}
+
+.precio {
+    font-weight: $bold;
+    font-size: 3rem;
+    color: $verde;
 }
 
 .iconos-caracteristicas {
     display: flex;
     list-style: none;
     padding: 0;
+    max-width: 40rem;
     li {
         display: flex;
         flex: 1;
