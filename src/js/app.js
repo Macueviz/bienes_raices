@@ -6,10 +6,15 @@ document.addEventListener('DOMContentLoaded', function(){
 function eventListeners() {
     const menuMovil = document.querySelector('.menu-movil');
 
-    menuMovil.addEventListener('click', navegacionResponsive)
+    menuMovil.addEventListener('click', navegacionResponsive);
 }
 
 function navegacionResponsive() {
-    const navegacion = document.querySelector('.navegacion');
-
+     const navegacion = document.querySelector('.navegacion');
+     
+    if( navegacion.classList.contains('mostrar')) {
+         navegacion.classList.remove('mostrar');
+    }else {
+        navegacion.classList.add('mostrar');
+    }
 }

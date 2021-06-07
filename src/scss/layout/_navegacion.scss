@@ -18,6 +18,7 @@
 
     opacity: 0;
     visibility: hidden;
+    transition: visibility .4s ease-in-out, opacity 0.5s linear;
 
     @include tablet{
         display: flex;
@@ -40,6 +41,11 @@
             margin-right: 0;
         }
     }
+}
+
+.mostrar {
+    visibility: visible;
+    opacity: 1;
 }
 
 .menu-movil {
