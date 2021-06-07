@@ -1,22 +1,29 @@
 .barra {
     display: flex;
     flex-direction: column;
+    align-items: center;
     padding-top: 3rem;
+    .logo {
+        width: 60%;
+        display: block;
+    }
     @include tablet {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        .logo {
-            width: 40%;
-            display: block;
-        }
     }
 }
 
 .navegacion {
+
+    opacity: 0;
+    visibility: hidden;
+
     @include tablet{
         display: flex;
         align-items: center;
+        opacity: 1;
+        visibility: visible;
     }
 
     a {
@@ -32,5 +39,14 @@
         &:last-of-type {
             margin-right: 0;
         }
+    }
+}
+
+.menu-movil {
+    width: 4rem;
+
+    @include tablet {
+        opacity: 0;
+        visibility: hidden;
     }
 }
