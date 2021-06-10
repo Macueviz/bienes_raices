@@ -29,11 +29,12 @@
         color: $negro;
     }
     h4 {
+        padding-top: 1rem;
+        line-height: 1.4rem;
+        margin: 0;
         @include tablet {
             margin-top: 0;
         }
-        line-height: 1.4rem;
-        margin: 0;
 
         &::after {
             margin-top: 1rem;

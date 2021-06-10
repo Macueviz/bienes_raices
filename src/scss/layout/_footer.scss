@@ -1,17 +1,18 @@
 .footer {
-    padding: $separacion  / 2 0;
+    padding: $separacion / 2 0;
     background-color: $grisOscuro;
-    margin-bottom: 0;   
-    .contenedor-footer{
+    margin-bottom: 0;
+    .contenido-footer {
         padding-top: $separacion / 2;
-        a {
-            margin-right: 2rem;
-            color: #fff;
-            font-size: 1.8rem;
-            text-decoration: none;
-        }
     }
-    .copyright{
+
+    .navegacion {
+        visibility: visible;
+        opacity: 1;
+        height: auto;
+    }
+
+    .copyright {
         color: $blanco;
         text-align: center;
     }
